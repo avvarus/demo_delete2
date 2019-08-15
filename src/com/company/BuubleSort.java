@@ -16,7 +16,7 @@ public class BuubleSort {
 
         for (i = 0; i < n - 1; i++) {
 
-            boolean set = false;
+            boolean swapDone = false;
 
             for (j = 0; j < n - 1; j++) {
 
@@ -26,13 +26,12 @@ public class BuubleSort {
 
                     bubbleSort[j] = bubbleSort[j + 1];
                     bubbleSort[j + 1] = temp;
-                    set = true;
+                    swapDone = true;
 
                 }
             }
-            if (set == false)
+            if (swapDone == false)
                 break;
-
         }
         System.out.println("after bubbleSort = " + Arrays.toString(bubbleSort));
 

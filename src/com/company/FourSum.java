@@ -22,8 +22,10 @@ public class FourSum {
             for (int j = i + 1; j < nums.length; j++) {
 
                 if (nums[i] + nums[j] == target) {
+
                     retur[0] = i;
                     retur[1] = j;
+
                 }
             }
         }

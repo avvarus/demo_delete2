@@ -7,8 +7,6 @@ public class LinkedListInJava {
     public static void main(String[] args) {
 
         LinkedListInJava linkedListInJava = new LinkedListInJava();
-
-
     }
 
     static class Node {
